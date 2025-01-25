@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Radyo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        main {
+            margin: 20px;
+        }
+        audio {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .chat {
+            margin-top: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .chat textarea {
+            width: 100%;
+            height: 100px;
+            resize: none;
+            margin-bottom: 10px;
+        }
+        .chat button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .chat button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benim Radyo</h1>
+    </header>
+    <main>
+        <h2>Canlı Yayın</h2>
+        <audio controls>
+            <source src="http://radyo-linkin-buraya.com" type="audio/mpeg">
+            Tarayıcınız bu oynatıcıyı desteklemiyor.
+        </audio>
+        <div class="chat">
+            <h3>Canlı Sohbet</h3>
+            <textarea placeholder="Mesajınızı yazın..."></textarea>
+            <button>Gönder</button>
+        </div>
+        <p>Her hakkı saklıdır © 2025</p>
+    </main>
+</body>
+</html>
